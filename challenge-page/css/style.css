@@ -1,3 +1,9 @@
+body {
+  background-color: #eee;
+  color: #000;
+  padding-top: 80px;
+}
+
 .header {
   background-color: rgb(32, 32, 32);
   box-shadow: 1px 1px 4px 0 rgba(134, 134, 134, 0.712);
@@ -37,4 +43,87 @@
 
 .menu a:hover {
   background-color: rgba(17, 17, 17, 0.959);
+}
+
+.rocketseat {
+  font-family: "Roboto";
+  font-weight: 400;
+}
+
+.titlerocketseat {
+  text-align: center;
+  font-size: 1.4em;
+  padding: 0;
+  margin: 0;
+}
+
+.wrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 70%;
+  background: #2B2B2B;
+  border-radius: 10px;
+  padding: 8px;
+}
+
+.card img {
+  width: 100%;
+  height: 400px;
+  border-radius: 10px;
+  padding-bottom: 15px;
+}
+
+.socialmedia {
+  display: flex;
+  justify-content: center;
+}
+
+.socialmedia a {
+  color: white;
+  text-decoration: none;
+  background-color: #000;
+  padding: 5px;
+  border-radius: 7px;
+  margin: 7px;
+
+}
+
+.socialmedia a:hover {
+  background-color: rgba(52, 2, 133, 0.74);
+}
+
+.info {
+  color: white;
+  padding: 0 10px;
+}
+
+.info-technologies {
+  text-align: center;
+  color: white;
+}
+
+.table-technologies {
+  background-color: #0000007a;
+  border: 2px solid;
+  border-color: rgb(0, 0, 0);
+  border-radius: 7px;
+  margin: auto;
+  width: 50%;
+}
+
+.list-technologies .primarylist {
+  display: inline-block;
+}
+
+.list-technologies .secondlist {
+  display: inline-block;
+  padding-left: 120px;
+}
+
+.list-technologies li {
+  margin-bottom: 30px;
 }
