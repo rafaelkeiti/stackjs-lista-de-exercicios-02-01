@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Challenge-03</title>
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <a href="challenge-01.html" class="logo">Início</a>
+    <div class="menu">
+      <a href="https://discordapp.com/invite/gCRAFhc" class="oi">Comunidade</a>
+      <a href="mailto: oi@rocketseat.com.br">Email</a>
+      <a href="tel:+5547992078767">Telefone</a>
+      <a href="challenge-02.html">Sobre</a>
+      <a href="challenge-03.html">Conteúdos</a>
+    </div>
+  </header>
+
+  <div id="resposta" class="contents-rocketseat">
+    <div class="contents-title">
+      <h1>Posts favoritos Rocketseat</h1>
+    </div>
+    <div class="contents">
+      <div class="contents-card">
+        <img src="assets/imgs/contents-post-01.png" alt="">
+        <h2 class="title-post">Boas práticas para devs em início de carreira.</h2>
+        <span class="author-post">
+          <div class="author-photo"><img
+              src="https://blog.rocketseat.com.br/content/images/2021/12/254065244_4632493013499538_4893590733630240549_n.jpg"
+              alt=""></div> - Felipe Buzzi
+        </span>
+        <span class="reading-time">4 minutos de leitura</span>
+        <div class="button-card">
+          <button type="button" class="btnOpenModal" onclick="openModal(this.id)" id="button1">Ver mais</button>
+        </div>
+      </div>
+      <div class="contents-card">
+        <img src="assets/imgs/contents-post-02.png" alt="">
+        <h2 class="title-post">Código Limpo: reflexão e prática</h2>
+        <span class="author-post">
+          <div class="author-photo"><img
+              src="https://blog.rocketseat.com.br/content/images/2021/12/254065244_4632493013499538_4893590733630240549_n.jpg"
+              alt=""></div> - Felipe Buzzi
+        </span>
+        <span class="reading-time">3 minutos de leitura</span>
+        <div class="button-card">
+          <button type="button" class="btnOpenModal" onclick="openModal(this.id)" id="button2">Ver mais</button>
+        </div>
+      </div>
+      <div class="contents-card">
+        <img src="assets/imgs/contents-post-03.jpg" alt="">
+        <h2 class="title-post">Dark Mode com CSS — mudando a aparência do Blog de maneira simples e rápida</h2>
+        <span class="author-post">
+          <div class="author-photo"><img src="https://blog.rocketseat.com.br/content/images/2021/03/profile-pic--4-.png"
+              alt=""></div> - Thiago Marinho
+        </span>
+        <span class="reading-time">3 minutos de leitura</span>
+        <div class="button-card">
+          <button type="button" class="btnOpenModal" onclick="openModal(this.id)" id="button3">Ver mais</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal-container fade">
+    <div class="modal">
+      <div class="btns">
+        <button id="btn-menu" class="btnMaximizar" onclick="maximizarModal()">Maximizar</button>
+        <button class="btnClose" onclick="closeModal()">X</button>
+      </div>
+      <iframe id="myIframe"></iframe>
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
